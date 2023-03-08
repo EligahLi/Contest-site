@@ -1,0 +1,248 @@
+* {
+    transition: .5s ease;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    padding: 60px 190px 30px 190px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #78828D;
+}
+
+header img {
+    width: 144px;
+    height: 55px;
+    padding-left: 190px;
+    padding-top: 25px;
+}
+
+nav {
+    display: flex;
+    padding: 25px 190px 25px 0;
+    color: #fff;
+}
+
+nav a {
+    padding-left: 40px;
+    color: #fff;
+    font-size: 35px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+.begining {
+    display: flex;
+    background: linear-gradient(248.78deg, #FDFEF4 13.14%, #F8E5E7 37.24%);
+    font-size: 30px;
+}
+
+.begining h3 {
+    padding: 60px 190px 50px 45px;
+}
+
+.txt {
+    padding: 0 190px 0 45px;
+}
+
+.begining img {
+    width: 50%;
+}
+
+.events {
+    display: flex;
+    background: linear-gradient(262.73deg, #BDC9DD -0.48%, #F8E5E7 63.26%);
+    border-radius: 48px;
+    margin: 0 190px;
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.events .text {
+    padding-left: 60px;
+    padding-right: 25px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+
+.events img {
+
+    border-radius: 53px 0px 0px 53px;
+
+}
+
+.begining a:hover {
+
+    padding-left: 25px;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.date {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+button {
+    transition: .4s ease;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    width: 280px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #78828D;
+}
+
+
+.winner {
+    display: flex;
+    margin: 40px 0 0 0;
+    background: radial-gradient(144.1% 170.03% at 41% -44.1%, #9FDFB6 0%, #FFFDE9 100%);
+    justify-content: space-between;
+    font-size: 36px;
+}
+
+.winner span {
+    font-size: 70px;
+    font-weight: 900;
+
+}
+
+.winner img {
+    width: 40%;
+
+}
+
+.winner h3 {
+    padding: 60px 45px 50px 190px;
+}
+
+.achv {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(262.73deg, #BDC9DD -0.48%, #F8E5E7 63.26%);
+    padding-left: 70px;
+    border-radius: 48px;
+    margin: 0 190px 40px 190px;
+
+}
+
+.achv img {
+    border-radius: 53px 0px 0px 53px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.achv p {
+    font-size: 20px;
+}
+
+.achv span {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.winner span:hover {
+    padding-left: 40px;
+
+}
+
+.achv span:hover {
+    padding-left: 40px;
+
+}
+
+.authorisation {
+    min-height: 100vh;
+    background: linear-gradient(193.68deg, #9BD9CA -6.71%, #B1CCF9 121%);
+
+}
+
+.authorisation .reg {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 1000px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.authorisation .box {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0px auto;
+    text-align: right;
+}
+
+.authorisation .smth{
+    padding-right:261px;
+    font-size: 26px;
+}
+
+.authorisation h2 {
+    font-size: 56px;
+}
+
+.authorisation #submit {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px 92px;
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    transition: .4s ease;
+}
+
+.authorisation #submit:hover {
+    color: #fff;
+    background-color: #79909D;
+}
+
+.box .input {
+    outline: none;
+    margin-left: 20px;
+    border: none;
+    font-size: 75%;
+    width: 465px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 11px;
+
+}
+

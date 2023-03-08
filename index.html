@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200&display=swap" rel="stylesheet">
+    <title>РфиКТ соревнования</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="mainH">
+        <img src="images/logo.png" alt="">
+        <nav>
+            <div>
+                <a href="#events">Cобытия</a>
+
+            </div>
+
+            <div>
+                <a href="#achivments">Достижения</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="begining">
+        <img src="images/inProgress.png" alt="">
+        <div class="text">
+            <h3>Прямо сейчас проходят соревнования</h3>
+            <div class="txt">
+                <p><a href="#c++">Соревнования по C++</a></p>
+                <p><a href="#c#">Соревнования по С#</a></p>
+                <p><a href="#java">Соревнования по Java</a></p>
+            </div>
+        </div>
+    </div>
+    <h1 id="events">События / Соревнования</h1>
+
+    <div id="cardEvents"></div>
+
+    <!--
+    <div id="c++" class="events">
+        <img src="images/girls.png" alt="">
+        <div class="text">
+            <h2>Соревнование по C++</h2>
+            <p>Необходимо написать программу, которая проверяет пользователя на знание таблицы умножения.
+                Пользователь сам вводит два целых однозначных числа. Программа задаёт вопрос: результат умножения
+                первого
+                числа на второе.
+                Пользователь должен ввести ответ и увидеть на экране правильно он ответил или нет. Если нет – показать
+                еще и
+                правильный результат.</p>
+            <div class="btn">
+                <p class="date">20.20.2023 10:00</p>
+                <button><a href="#registr">Участвовать</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="c#" class="events">
+        <img src="images/girls.png" alt="">
+        <div class="text">
+            <h2>Соревнования по С#</h2>
+            <p>Необходимо написать программу, которая проверяет пользователя на знание таблицы умножения.
+                Пользователь сам вводит два целых однозначных числа. Программа задаёт вопрос: результат умножения
+                первого
+                числа на второе.
+                Пользователь должен ввести ответ и увидеть на экране правильно он ответил или нет. Если нет – показать
+                еще и
+                правильный результат.</p>
+            <div class="btn">
+                <p class="date">16.05.2023 10:00</p>
+                <button><a href="#registr">Участвовать</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="java" class="events">
+        <img src="images/girls.png" alt="">
+        <div class="text">
+            <h2>Соревнования по Java</h2>
+            <p>Необходимо написать программу, которая проверяет пользователя на знание таблицы умножения.
+                Пользователь сам вводит два целых однозначных числа. Программа задаёт вопрос: результат умножения
+                первого
+                числа на второе.
+                Пользователь должен ввести ответ и увидеть на экране правильно он ответил или нет. Если нет – показать
+                еще и
+                правильный результат.</p>
+            <div class="btn">
+                <p class="date">15.10.2023 10:00</p>
+                <button><a href="#registr">Участвовать</a></button>
+            </div>
+        </div>
+    </div>
+-->
+    <div class="winner">
+        <h3>Победитель<br>
+            “Соревнования по JavaScript”<br>
+            <span>Владов Антон</span>
+        </h3>
+        <img src="images/happy.png" alt="">
+    </div>
+
+    <h1 id="achivments">Достижения</h1>
+    <div class="achv">
+        <div>
+            <h2>Победитель<br>
+                “Соревнования по Pyton”<br>
+                <span>Виктория Маисюк</span>
+            </h2>
+
+            <p>
+                2 место Гомон Егор
+            </p>
+            <p>
+                3 место Багай Валерия
+            </p>
+        </div>
+        <img src="images/girls.png" alt="">
+    </div>
+
+    <div class="achv">
+        <div>
+            <h2>
+                Победитель<br>
+                “Соревнования по Pyton”<br>
+                <span>Виктория Маисюк</span>
+            </h2>
+            <p>2 место Гомон Егор</p>
+            <p>3 место Багай Валерия</p>
+        </div>
+        <img src="images/girls.png" alt="">
+    </div>
+
+    <div id="registr" class="authorisation">
+        <div>
+            <h2 class="reg">Регистрация</h2>
+            <form id="admit" class="box">
+                <div class="smth">
+                    <p>
+                        Ф.И.О.
+                        <input name="fio" class="input" type="text">
+                    </p>
+                    <p>
+                        Курс
+                        <input name="course" class="input" type="text">
+                    </p>
+
+                    <p>
+                        Группа/Кафедра
+                        <input name="group" class="input" type="text">
+                    </p>
+
+                    <p>
+                        E - mail
+                        <input name="mail" class="input" type="email">
+                    </p>
+
+                    <p>
+                        Cоревнование
+                        <input name="comp" class="input" type="text">
+                    </p>
+                </div>
+                <input id="submit" type="submit" value="Участвовать">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
